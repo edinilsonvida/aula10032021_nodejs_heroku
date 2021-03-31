@@ -30,7 +30,7 @@ const Post = db.sequelize.define("post", {
 module.exports = Post;
 
 //Comando para criar novos campos nas tabelas do banco
-//Post.sync({ update: true });
+Post.sync({ update: true });
 
 //Comando para recriar a estrutura das tabelas do banco de dados
 //Post.sync({ force: true });
